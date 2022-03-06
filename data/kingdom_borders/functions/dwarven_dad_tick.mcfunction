@@ -1,0 +1,2 @@
+execute positioned 1000 70 1000 as @a[distance=..500,tag=!in_dwarven_dad_kingdom] run execute as @s run function kingdom_borders:dwarven_dad_enter
+execute positioned 1000 70 1000 as @a[distance=500..,tag=in_dwarven_dad_kingdom] run execute as @s run function kingdom_borders:dwarven_dad_leave

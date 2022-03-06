@@ -1,0 +1,2 @@
+execute positioned 1000 70 -1000 as @a[distance=..500,tag=!in_willow_tree_kingdom] run execute as @s run function kingdom_borders:willow_tree_enter
+execute positioned 1000 70 -1000 as @a[distance=500..,tag=in_willow_tree_kingdom] run execute as @s run function kingdom_borders:willow_tree_leave

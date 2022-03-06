@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 9,
+		"description": "Sets borders for player kingdoms and alerts players when they're entering/leaving a kingdom."
+	}
+}
