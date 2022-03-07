@@ -1,0 +1,2 @@
+execute as @a[tag=!in_sheep_block_kingdom] at @s positioned 500 ~ 500 if entity @s[distance=..500] run function kingdom_borders:sheep_block_enter
+execute as @a[tag=in_sheep_block_kingdom] at @s positioned 500 ~ 500 if entity @s[distance=500..] run function kingdom_borders:sheep_block_leave

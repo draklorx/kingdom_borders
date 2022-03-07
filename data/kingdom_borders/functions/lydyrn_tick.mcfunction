@@ -1,2 +1,2 @@
-execute positioned -1000 70 -1000 as @a[distance=..500,tag=!in_lydyrn_kingdom] run execute as @s run function kingdom_borders:lydyrn_enter
-execute positioned -1000 70 -1000 as @a[distance=500..,tag=in_lydyrn_kingdom] run execute as @s run function kingdom_borders:lydyrn_leave
+execute as @a[tag=!in_lydyrn_kingdom] at @s positioned -1000 ~ -1000 if entity @s[distance=..500] run function kingdom_borders:lydyrn_enter
+execute as @a[tag=in_lydyrn_kingdom] at @s positioned -1000 ~ -1000 if entity @s[distance=500..] run function kingdom_borders:lydyrn_leave
