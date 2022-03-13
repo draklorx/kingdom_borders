@@ -1,0 +1,2 @@
+execute as @a[tag=!in_elspark_kingdom] at @s positioned 2900 ~ -1700 if entity @s[distance=..200] run function kingdom_borders:elspark_enter
+execute as @a[tag=in_elspark_kingdom] at @s positioned 2900 ~ -1700 if entity @s[distance=200..] run function kingdom_borders:elspark_leave
