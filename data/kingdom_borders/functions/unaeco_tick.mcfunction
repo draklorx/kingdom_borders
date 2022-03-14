@@ -1,0 +1,2 @@
+execute as @a[tag=!in_unaeco_kingdom] at @s positioned 1150 ~ -2620 if entity @s[distance=..200] run function kingdom_borders:unaeco_enter
+execute as @a[tag=in_unaeco_kingdom] at @s positioned 1150 ~ -2620 if entity @s[distance=200..] run function kingdom_borders:unaeco_leave

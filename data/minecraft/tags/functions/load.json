@@ -1,10 +1,14 @@
 {
     "values": [
         "kingdom_borders:demodude_load",
+        "kingdom_borders:dnumrov_load",
         "kingdom_borders:dwarven_dad_load",
         "kingdom_borders:elspark_load",
+        "kingdom_borders:homonormativity_load",
+        "kingdom_borders:loki_load",
         "kingdom_borders:lydyrn_load",
         "kingdom_borders:panda_boy_load",
+        "kingdom_borders:unaeco_load",
         "kingdom_borders:willow_tree_load"
     ]
 }
