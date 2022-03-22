@@ -1,14 +1,15 @@
 {
     "values": [
-        "kingdom_borders:demodude_tick",
-        "kingdom_borders:dnumrov_tick",
-        "kingdom_borders:dwarven_dad_tick",
-        "kingdom_borders:elspark_tick",
-        "kingdom_borders:homonormativity_tick",
-        "kingdom_borders:loki_tick",
-        "kingdom_borders:lydyrn_tick",
-        "kingdom_borders:panda_boy_tick",
-        "kingdom_borders:unaeco_tick",
-        "kingdom_borders:willow_tree_tick"
+        "kingdom_borders:demodude/tick",
+        "kingdom_borders:dnumrov/tick",
+        "kingdom_borders:dwarven_dad/tick",
+        "kingdom_borders:elspark/tick",
+        "kingdom_borders:homonormativity/tick",
+        "kingdom_borders:humanpizza/tick",
+        "kingdom_borders:loki/tick",
+        "kingdom_borders:lydyrn/tick",
+        "kingdom_borders:panda_boy/tick",
+        "kingdom_borders:unaeco/tick",
+        "kingdom_borders:willow_tree/tick"
     ]
 }

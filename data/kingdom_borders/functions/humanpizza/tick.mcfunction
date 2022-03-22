@@ -1,0 +1,2 @@
+execute as @a[tag=!in_humanpizza_kingdom] at @s positioned 2950 ~ -750 if entity @s[distance=..200] run function kingdom_borders:humanpizza/enter
+execute as @a[tag=in_humanpizza_kingdom] at @s positioned 2950 ~ -750 if entity @s[distance=200..] run function kingdom_borders:humanpizza/leave
