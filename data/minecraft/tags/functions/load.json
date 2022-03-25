@@ -1,15 +1,20 @@
 {
     "values": [
+        "kingdom_borders:dalas/load",
         "kingdom_borders:demodude/load",
         "kingdom_borders:dnumrov/load",
         "kingdom_borders:dwarven_dad/load",
         "kingdom_borders:elspark/load",
         "kingdom_borders:homonormativity/load",
+        "kingdom_borders:hoodlum/load",
         "kingdom_borders:humanpizza/load",
         "kingdom_borders:loki/load",
         "kingdom_borders:lydyrn/load",
         "kingdom_borders:panda_boy/load",
+        "kingdom_borders:queendragonair/load",
+        "kingdom_borders:sheepblock/load",
         "kingdom_borders:unaeco/load",
-        "kingdom_borders:willow_tree/load"
+        "kingdom_borders:willow_tree/load",
+        "kingdom_borders:wizard_weasley/load"
     ]
 }

@@ -1,0 +1,2 @@
+execute as @a[tag=!in_hoodlum_kingdom] at @s positioned 1380 ~ 3280 if entity @s[distance=..200] run function kingdom_borders:hoodlum/enter
+execute as @a[tag=in_hoodlum_kingdom] at @s positioned 1380 ~ 3280 if entity @s[distance=200..] run function kingdom_borders:hoodlum/leave

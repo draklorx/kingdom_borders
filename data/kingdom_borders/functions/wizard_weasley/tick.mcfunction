@@ -1,0 +1,2 @@
+execute as @a[tag=!in_wizard_weasley_kingdom] at @s positioned -4000 ~ 2450 if entity @s[distance=..200] run function kingdom_borders:wizard_weasley/enter
+execute as @a[tag=in_wizard_weasley_kingdom] at @s positioned -4000 ~ 2450 if entity @s[distance=200..] run function kingdom_borders:wizard_weasley/leave

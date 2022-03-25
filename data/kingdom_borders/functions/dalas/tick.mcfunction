@@ -1,0 +1,2 @@
+execute as @a[tag=!in_dalas_kingdom] at @s positioned -950 ~ 3530 if entity @s[distance=..200] run function kingdom_borders:dalas/enter
+execute as @a[tag=in_dalas_kingdom] at @s positioned -950 ~ 3530 if entity @s[distance=200..] run function kingdom_borders:dalas/leave
