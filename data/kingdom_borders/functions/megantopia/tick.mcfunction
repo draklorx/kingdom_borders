@@ -1,0 +1,2 @@
+execute as @a[tag=!in_megantopia_kingdom] at @s positioned 4280 ~ -4550 if entity @s[distance=..200] run function kingdom_borders:megantopia/enter
+execute as @a[tag=in_megantopia_kingdom] at @s positioned 4280 ~ -4550 if entity @s[distance=200..] run function kingdom_borders:megantopia/leave

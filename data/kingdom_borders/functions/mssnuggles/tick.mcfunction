@@ -1,0 +1,2 @@
+execute as @a[tag=!in_mssnuggles_kingdom] at @s positioned 2950 ~ 1700 if entity @s[distance=..200] run function kingdom_borders:mssnuggles/enter
+execute as @a[tag=in_mssnuggles_kingdom] at @s positioned 2950 ~ 1700 if entity @s[distance=200..] run function kingdom_borders:mssnuggles/leave

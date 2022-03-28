@@ -1,0 +1,2 @@
+execute as @a[tag=!in_garlic_kingdom] at @s positioned -5150 ~ 1025 if entity @s[distance=..200] run function kingdom_borders:garlic/enter
+execute as @a[tag=in_garlic_kingdom] at @s positioned -5150 ~ 1025 if entity @s[distance=200..] run function kingdom_borders:garlic/leave

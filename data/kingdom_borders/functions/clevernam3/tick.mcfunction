@@ -1,0 +1,2 @@
+execute as @a[tag=!in_clevernam3_kingdom] at @s positioned -2900 ~ 2200 if entity @s[distance=..200] run function kingdom_borders:clevernam3/enter
+execute as @a[tag=in_clevernam3_kingdom] at @s positioned -2900 ~ 2200 if entity @s[distance=200..] run function kingdom_borders:clevernam3/leave

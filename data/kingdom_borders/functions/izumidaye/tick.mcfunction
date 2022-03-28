@@ -1,0 +1,2 @@
+execute as @a[tag=!in_izumidaye_kingdom] at @s positioned -3075 ~ 3950 if entity @s[distance=..200] run function kingdom_borders:izumidaye/enter
+execute as @a[tag=in_izumidaye_kingdom] at @s positioned -3075 ~ 3950 if entity @s[distance=200..] run function kingdom_borders:izumidaye/leave

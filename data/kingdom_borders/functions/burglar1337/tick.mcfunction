@@ -1,0 +1,2 @@
+execute as @a[tag=!in_burglar1337_kingdom] at @s positioned 1100 ~ -4400 if entity @s[distance=..200] run function kingdom_borders:burglar1337/enter
+execute as @a[tag=in_burglar1337_kingdom] at @s positioned 1100 ~ -4400 if entity @s[distance=200..] run function kingdom_borders:burglar1337/leave

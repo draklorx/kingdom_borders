@@ -1,0 +1,2 @@
+execute as @a[tag=!in_toxic_alliums_kingdom] at @s positioned 4150 ~ -1250 if entity @s[distance=..200] run function kingdom_borders:toxic_alliums/enter
+execute as @a[tag=in_toxic_alliums_kingdom] at @s positioned 4150 ~ -1250 if entity @s[distance=200..] run function kingdom_borders:toxic_alliums/leave
