@@ -1,2 +1,2 @@
-execute as @a[tag=!in_dnumrov_kingdom] at @s positioned 2275 ~ -4100 if entity @s[distance=..200] run function kingdom_borders:dnumrov/enter
-execute as @a[tag=in_dnumrov_kingdom] at @s positioned 2275 ~ -4100 if entity @s[distance=200..] run function kingdom_borders:dnumrov/leave
+execute as @a[tag=!in_dnumrov_kingdom] at @s positioned 2275 ~ -4093 if entity @s[distance=..200] run function kingdom_borders:dnumrov/enter
+execute as @a[tag=in_dnumrov_kingdom] at @s positioned 2275 ~ -4093 if entity @s[distance=200..] run function kingdom_borders:dnumrov/leave
