@@ -1,0 +1,2 @@
+execute as @a[tag=!in_kempjuice_kingdom] at @s positioned -2506 ~ -706 if entity @s[distance=..200] run function kingdom_borders:kempjuice/enter
+execute as @a[tag=in_kempjuice_kingdom] at @s positioned -2506 ~ -706 if entity @s[distance=200..] run function kingdom_borders:kempjuice/leave
