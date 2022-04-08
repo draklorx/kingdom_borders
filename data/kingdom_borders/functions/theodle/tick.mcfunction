@@ -1,2 +1,2 @@
-execute as @a[tag=!in_theodle_kingdom] at @s positioned -4314 ~ 1188 if entity @s[distance=..200] run function kingdom_borders:theodle/enter
-execute as @a[tag=in_theodle_kingdom] at @s positioned -4314 ~ 1188 if entity @s[distance=200..] run function kingdom_borders:theodle/leave
+execute as @a[tag=!in_theodle_kingdom] at @s positioned -100 ~ -2666 if entity @s[distance=..200] run function kingdom_borders:theodle/enter
+execute as @a[tag=in_theodle_kingdom] at @s positioned -100 ~ -2666 if entity @s[distance=200..] run function kingdom_borders:theodle/leave
