@@ -1,0 +1,2 @@
+execute as @a[tag=!in_basler_kingdom] at @s positioned 2400 ~ -5100 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"},nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:basler/enter
+execute as @a[tag=in_basler_kingdom] at @s positioned 2400 ~ -5100 if entity @s[distance=200..] run function kingdom_borders:basler/leave

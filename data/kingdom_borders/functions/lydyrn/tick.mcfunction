@@ -1,2 +1,2 @@
-execute as @a[tag=!in_lydyrn_kingdom] at @s positioned -975 ~ -50 if entity @s[distance=..200] run function kingdom_borders:lydyrn/enter
+execute as @a[tag=!in_lydyrn_kingdom] at @s positioned -975 ~ -50 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:lydyrn/enter
 execute as @a[tag=in_lydyrn_kingdom] at @s positioned -975 ~ -50 if entity @s[distance=200..] run function kingdom_borders:lydyrn/leave

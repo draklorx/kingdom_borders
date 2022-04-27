@@ -1,2 +1,2 @@
-execute as @a[tag=!in_mrfixit_kingdom] at @s positioned -4200 ~ -3650 if entity @s[distance=..200] run function kingdom_borders:mrfixit/enter
+execute as @a[tag=!in_mrfixit_kingdom] at @s positioned -4200 ~ -3650 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:mrfixit/enter
 execute as @a[tag=in_mrfixit_kingdom] at @s positioned -4200 ~ -3650 if entity @s[distance=200..] run function kingdom_borders:mrfixit/leave

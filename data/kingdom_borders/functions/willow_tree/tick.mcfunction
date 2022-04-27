@@ -1,2 +1,2 @@
-execute as @a[tag=!in_willow_tree_kingdom] at @s positioned -3450 ~ -1650 if entity @s[distance=..200] run function kingdom_borders:willow_tree/enter
+execute as @a[tag=!in_willow_tree_kingdom] at @s positioned -3450 ~ -1650 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:willow_tree/enter
 execute as @a[tag=in_willow_tree_kingdom] at @s positioned -3450 ~ -1650 if entity @s[distance=200..] run function kingdom_borders:willow_tree/leave

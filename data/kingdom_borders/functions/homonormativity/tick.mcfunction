@@ -1,2 +1,2 @@
-execute as @a[tag=!in_homonormativity_kingdom] at @s positioned -2250 ~ 1150 if entity @s[distance=..200] run function kingdom_borders:homonormativity/enter
+execute as @a[tag=!in_homonormativity_kingdom] at @s positioned -2250 ~ 1150 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:homonormativity/enter
 execute as @a[tag=in_homonormativity_kingdom] at @s positioned -2250 ~ 1150 if entity @s[distance=200..] run function kingdom_borders:homonormativity/leave

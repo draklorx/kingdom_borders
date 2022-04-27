@@ -1,2 +1,2 @@
-execute as @a[tag=!in_krystle_kingdom] at @s positioned 1693 ~ -728 if entity @s[distance=..200] run function kingdom_borders:krystle/enter
+execute as @a[tag=!in_krystle_kingdom] at @s positioned 1693 ~ -728 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:krystle/enter
 execute as @a[tag=in_krystle_kingdom] at @s positioned 1693 ~ -728 if entity @s[distance=200..] run function kingdom_borders:krystle/leave

@@ -1,2 +1,2 @@
-execute as @a[tag=!in_gollumfingers_kingdom] at @s positioned 2250 ~ 4800 if entity @s[distance=..200] run function kingdom_borders:gollumfingers/enter
+execute as @a[tag=!in_gollumfingers_kingdom] at @s positioned 2250 ~ 4800 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:gollumfingers/enter
 execute as @a[tag=in_gollumfingers_kingdom] at @s positioned 2250 ~ 4800 if entity @s[distance=200..] run function kingdom_borders:gollumfingers/leave

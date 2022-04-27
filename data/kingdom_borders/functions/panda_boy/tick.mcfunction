@@ -1,2 +1,2 @@
-execute as @a[tag=!in_panda_boy_kingdom] at @s positioned -3500 ~ 4575 if entity @s[distance=..200] run function kingdom_borders:panda_boy/enter
+execute as @a[tag=!in_panda_boy_kingdom] at @s positioned -3500 ~ 4575 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:panda_boy/enter
 execute as @a[tag=in_panda_boy_kingdom] at @s positioned -3500 ~ 4575 if entity @s[distance=200..] run function kingdom_borders:panda_boy/leave

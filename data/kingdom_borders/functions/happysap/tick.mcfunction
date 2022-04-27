@@ -1,2 +1,2 @@
-execute as @a[tag=!in_happysap_kingdom] at @s positioned 175 ~ -3125 if entity @s[distance=..200] run function kingdom_borders:happysap/enter
+execute as @a[tag=!in_happysap_kingdom] at @s positioned 175 ~ -3125 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:happysap/enter
 execute as @a[tag=in_happysap_kingdom] at @s positioned 175 ~ -3125 if entity @s[distance=200..] run function kingdom_borders:happysap/leave
