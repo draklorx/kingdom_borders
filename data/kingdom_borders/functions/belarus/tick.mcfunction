@@ -1,0 +1,2 @@
+execute as @a[tag=!in_belarus_kingdom] at @s positioned -850 ~ -2820 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"},nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:belarus/enter
+execute as @a[tag=in_belarus_kingdom] at @s positioned -850 ~ -2820 if entity @s[distance=200..] run function kingdom_borders:belarus/leave
