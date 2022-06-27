@@ -1,0 +1,2 @@
+execute as @a[tag=!in_demodudenew_kingdom] at @s positioned 230 ~ -1123 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:demodudenew/enter
+execute as @a[tag=in_demodudenew_kingdom] at @s positioned 230 ~ -1123 if entity @s[distance=200..] run function kingdom_borders:demodudenew/leave
