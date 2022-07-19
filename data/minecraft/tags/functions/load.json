@@ -1,5 +1,6 @@
 {
     "values": [
+        "kingdom_borders:aquaria/load",
         "kingdom_borders:artificerteasel/load",
         "kingdom_borders:basler/load",
         "kingdom_borders:belarus/load",

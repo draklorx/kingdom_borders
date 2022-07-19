@@ -1,0 +1,2 @@
+execute as @a[tag=!in_aquaria_kingdom] at @s positioned 350 ~ 350 if entity @s[distance=..200,nbt={Dimension:"minecraft:overworld"}] run function kingdom_borders:aquaria/enter
+execute as @a[tag=in_aquaria_kingdom] at @s positioned 350 ~ 350 if entity @s[distance=200..] run function kingdom_borders:aquaria/leave
